@@ -1,4 +1,4 @@
 <?php
 
-require "about.view.php";
+require "./about.view.php";
 ?>
