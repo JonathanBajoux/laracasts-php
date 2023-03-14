@@ -1,3 +1,3 @@
 <?php
-require "./mission.php";
+require "mission.php";
 ?>
