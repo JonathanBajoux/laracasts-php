@@ -2,4 +2,3 @@
 
 
 require "index.view.php";
-?>
