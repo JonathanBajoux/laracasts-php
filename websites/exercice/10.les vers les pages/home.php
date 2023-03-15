@@ -1,4 +1,4 @@
 <?php
 
-require "./home.view.php";
+require "../view/home.view.php";
 ?>
