@@ -1,6 +1,6 @@
 <?php
 
-$heading = 'Contact';
+$heading = "Contact";
 
 function dd($value)
 {

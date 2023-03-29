@@ -8,7 +8,7 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/home.php" class="bg-gray-900 text-white text-gray-300 hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
+              <a href="/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/home.php" class="<?php if ($_SERVER['REQUEST_URI']==='/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/home.php') {echo 'bg-gray-900 text-white';} else {echo 'text-gray-300';}?> text-gray-300 hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
 
               <a href="/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/about.php" class=" text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
 

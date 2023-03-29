@@ -9,5 +9,5 @@ function dd($value)
 
     die();
 }
-echo $_SERVER['REQUEST_URI'];
 require "view/home.view.php";
+?>
