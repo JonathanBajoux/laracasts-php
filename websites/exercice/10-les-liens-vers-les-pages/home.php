@@ -1,6 +1,6 @@
 <?php
 
-require './function.php';
+require './fonction.php';
 
 $heading = "Home";
 
