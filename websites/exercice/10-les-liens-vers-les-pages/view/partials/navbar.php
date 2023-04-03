@@ -12,11 +12,11 @@
 
               <a href="/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/about.php" class="<?= urlIs('/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/about.php') ? 'bg-gray-900 text-white' : 'text-gray-300'?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
 
-              <a href="/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/contact.php" class="<?= urlIs('/laracasts-php/websites/exercice/10-les-liens-vers-les-page/contact.php') ? 'bg-gray-900 text-white' : 'text-gray-300'?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+              <a href="/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/contact.php" class="<?= urlIs('/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/contact.php') ? 'bg-gray-900 text-white' : 'text-gray-300'?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
 
               <a href="/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/mission.php" class="<?= urlIs('/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/mission.php') ? 'bg-gray-900 text-white' : 'text-gray-300'?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Mission</a>
 
-              <a href="" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"></a>
+              <!--<a href="" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"></a>-->
             </div>
           </div>
         </div>
