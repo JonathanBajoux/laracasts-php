@@ -2,6 +2,8 @@
 
 require "function.php";
 
-$heading = "Home";
+$uri = $_SERVER['REQUEST_URI'];
 
-require "view/home.view.php";
+if ($uri == '/laracasts-php/websites/exercice/10-les-liens-vers-les-pages/home.php') {
+    require 'controllers/home.php';
+}
