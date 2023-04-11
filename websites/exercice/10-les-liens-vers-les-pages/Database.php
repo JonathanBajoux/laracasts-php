@@ -18,13 +18,13 @@ class Database{
         ]);
     }
 
-    public function query($query)
+    public function query($query, $params = [])
     {
         //prépare une requète a l'execution et retourne un objet
         $statement = $this->connection->prepare($query);
 
         //éxecute la requete préparer
-        $statement->execute();
+        $statement->execute($params);
 
         //recupère la ligne suivante d'un jeux de resultat PDO
         return $statement;
